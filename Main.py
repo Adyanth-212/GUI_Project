@@ -6,6 +6,8 @@ from datetime import datetime
 import os
 
 # All the different classes i needed
+#Testing if the github thing is working correctly
+#Hello World
 class Restaurant:
     def __init__(self, restaurant_id, name, cuisine_type, rating, location, total_tables, table_configuration, opening_hours, closing_hours):
         self.restaurant_id = restaurant_id
